@@ -1,0 +1,217 @@
+
+.body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url(./paginas/recursos.html/ropa.jpg);
+    background-size: cover;
+}
+
+.nav-brand{
+    text-decoration: none;
+    color: black;
+}
+.nav-item{
+    margin-left: 150px;
+}
+.nav-item a:hover{
+    color: whitesmoke;
+}
+
+nav a:hover{
+    color:white
+}
+
+.section__titulo{
+    background-color: rgb(236, 167, 167);
+    width: 100%;
+    height: 70px;  
+    font-style: initial;
+    align-content: center;
+    position: relative;
+    top: 0px;
+}
+
+.titulo{
+    width: 100%;
+    height: 20%;
+    padding: 30px;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.iconos{
+    width: 40px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+
+.section__icon{
+    width: 5px;
+    height: 5px;
+    margin: 20px;
+   
+    padding: 10px;
+    font-size: 15px;
+    position: relative;
+    top: 300px;
+ 
+}
+
+footer{
+    border-style: solid;
+    color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    padding: 10px;
+    font-style: initial;
+    font-size:x-large;
+    align-content: center;
+}
+
+.section__fooder{
+    position: relative;
+    bottom: 10px;
+}
+
+.body__2{
+    margin: 0px;
+    background-image: linear-gradient ( botton, rosybrown, rgb(225, 145, 145));
+    background-attachment: fixed;
+}
+
+.titulos__2{
+    width: 100%;
+    height: 70px;
+    background-color: rgb(165, 162, 162);
+}
+
+.titulo__2A{ 
+    width: 100%;
+    height: 70px;
+    background-color: rosybrown;
+}
+.titulo__h1{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+.imagenes__1{
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    left: 120px;
+    bottom: 30px;
+    flex-wrap: nowrap;
+}
+
+.img02{
+    margin: 40px;
+    width: 200px;
+    height: 270px;
+    border: solid black;
+}
+
+.img03{
+    margin: 40px;
+    width: 200px;
+    height: 270px;
+    border: solid black;
+}
+
+
+.img04{
+    margin: 40px;
+    width: 200px;
+    height: 270px;
+    border: solid black;
+}
+
+
+.section__parrafo{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 250px;
+    bottom: 350px;
+    line-height: 1.6;
+}
+
+.imagen__lluvia{
+    width: 400px;
+    height: 350px;
+    position: relative;
+    left: 700px;
+    top: 40px;
+}
+
+.parrafo__1{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    line-height: 1.6;
+    width: 60vw;
+    height: 100vh;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    flex-wrap: nowrap;
+}
+
+.mercado{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 300px;
+}
+.mercado1{
+    position: relative;
+    left: 350px;
+    bottom: 55px;
+    font-weight: bold;
+}
+
+.tarjeta{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 400px;
+}
+.tarjeta1{
+    position: relative;
+    left: 550px;
+    bottom: 65px;
+    font-weight: bold;
+}
+
+.moneda{
+    width: 130px;
+    height: 130px;
+    position: relative;
+    left: 500px;
+    font-weight: bold;
+}
+.moneda1{
+    position: relative;
+    left: 650px;
+    bottom:55px ;
+    font-weight: bold;
+}
+    
+
+.body__envio{
+    background-image:url(./paginas/recursos.html/cajacorreo.jpg) ;
+    background-size: cover;
+}
+
