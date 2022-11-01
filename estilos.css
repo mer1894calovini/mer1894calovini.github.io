@@ -81,11 +81,7 @@ footer{
     bottom: 10px;
 }
 
-.body__2{
-    margin: 0px;
-    background-image: linear-gradient ( botton, rosybrown, rgb(225, 145, 145));
-    background-attachment: fixed;
-}
+
 
 .titulos__2{
     width: 100%;
@@ -169,12 +165,20 @@ footer{
     flex-wrap: nowrap;
 }
 
+.body__pago{
+    background-image: url(./paginas/recursos.html/pexels-karolina-grabowska-4968638.jpg);
+}
+
+.mediosdepago{
+    display: flex;
+
+}
+
 .mercado{
     width: 130px;
     height: 130px;
-    position: relative;
-    left: 300px;
 }
+
 .mercado1{
     position: relative;
     left: 350px;
@@ -185,8 +189,7 @@ footer{
 .tarjeta{
     width: 130px;
     height: 130px;
-    position: relative;
-    left: 400px;
+    
 }
 .tarjeta1{
     position: relative;
@@ -198,10 +201,8 @@ footer{
 .moneda{
     width: 130px;
     height: 130px;
-    position: relative;
-    left: 500px;
-    font-weight: bold;
 }
+    
 .moneda1{
     position: relative;
     left: 650px;
