@@ -21,7 +21,9 @@
 nav a:hover{
     color:white
 }
-
+.navbar{
+    background-color: #dfc5d6;
+}
 .section__titulo{
     background-color: rgb(236, 167, 167);
     width: 100%;
@@ -54,12 +56,10 @@ nav a:hover{
     width: 5px;
     height: 5px;
     margin: 20px;
-   
     padding: 10px;
     font-size: 15px;
     position: relative;
     top: 300px;
- 
 }
 
 footer{
@@ -99,15 +99,22 @@ footer{
     position: relative;
     top: 10px;
 }
-
-.imagenes__1{
-    margin: 0px;
-    padding: 0px;
-    position: absolute;
-    left: 120px;
-    bottom: 30px;
-    flex-wrap: nowrap;
+.catalogo{
+    background-image: url(./paginas/recursos.html/pexels-tara-winstead-7663174.jpg); 
+    background-size: contain;
 }
+.imagenes__1{   
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+}
+.imagenes__1 div{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+}
+
 
 .img02{
     margin: 40px;
@@ -131,25 +138,21 @@ footer{
     border: solid black;
 }
 
+.body__somos{
+background-image: url(./paginas/recursos.html/fotocajaflor.jpeg);
+background-size: cover;
+
+}
 
 .section__parrafo{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     font-size: x-large;
-    width: 400px;
     height: 350px;
     position: relative;
-    left: 250px;
-    bottom: 350px;
-    line-height: 1.6;
-}
-
-.imagen__lluvia{
-    width: 400px;
-    height: 350px;
-    position: relative;
-    left: 700px;
     top: 40px;
+    display: flex;
+    justify-content: center;
 }
 
 .parrafo__1{
@@ -167,11 +170,16 @@ footer{
 
 .body__pago{
     background-image: url(./paginas/recursos.html/pexels-karolina-grabowska-4968638.jpg);
+    background-size: cover;
 }
 
 .mediosdepago{
     display: flex;
-
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    flex-wrap: wrap;
 }
 
 .mercado{
@@ -191,23 +199,10 @@ footer{
     height: 130px;
     
 }
-.tarjeta1{
-    position: relative;
-    left: 550px;
-    bottom: 65px;
-    font-weight: bold;
-}
 
 .moneda{
     width: 130px;
     height: 130px;
-}
-    
-.moneda1{
-    position: relative;
-    left: 650px;
-    bottom:55px ;
-    font-weight: bold;
 }
     
 
