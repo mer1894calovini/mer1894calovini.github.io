@@ -1,38 +1,40 @@
-
-
+/* variables*/
+$color-1-grupo1: black;
+$font-family1: 'Times New Roman', Times, serif;
+$font-family2: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
 
 .body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    background-image: url(../paginas/recursos.html/recursos/ropa-min.jpg);
+    background-image: url(../paginas/recursos.html/images.jpg);
     background-size: cover;
 }
 
-.body_catalogo {
+.body__catalogo {
     background-image: url(../paginas/recursos.html/recursos/pexels-tara-winstead-7663174.jpg);
-    background-size: contain;
+    background-size: cover;
 }
 
 .body__somos {
-    background-image: url(../paginas/recursos.html/recursos/fotocajaflor-min.jpeg);
+    background-image: url(../paginas/recursos.html/recursos/fotocajaflor.jpeg);
     background-size: cover;
 }
 
 .body__pago {
-    background-image: url(../paginas/recursos.html/recursos/pexels-karolina-grabowska-4968638-min.jpg);
+    background-image: url(../paginas/recursos.html/recursos/pexels-karolina-grabowska-4968638.jpg);
     background-size: cover;
 }
 
 .body__envio {
-    background-image: url(../paginas/recursos.html/recursos/cajacorreo-min\ \(1\).jpg);
+    background-image: url(../paginas/recursos.html/recursos/cajacorreo.jpg);
     background-size: cover;
 }
 
 .nav-brand {
     text-decoration: none;
-    color: black;
+    color:$color-1-grupo1;
 }
 
 .nav-item {
@@ -67,7 +69,7 @@ nav a:hover {
             bottom: 15px;
             text-align: center;
             font-size: xx-large;
-            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-family: $font-family2
         } 
         .section__icon {
             width: 5px;
@@ -86,7 +88,7 @@ nav a:hover {
 }
 footer {
     border-style: solid;
-    color: black;
+    color:$color-1-grupo1;
     text-align: center;
     position: fixed;
     width: 100%;
@@ -122,8 +124,9 @@ footer {
     bottom: 15px;
     text-align: center;
     font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+    font-family: $font-family2;  
 }
+
 .titulo__h1 {
     text-align: center;
     position: relative;
@@ -140,17 +143,23 @@ footer {
         margin: 40px;
         width: 200px;
         height: 270px;
-        border: solid black;
+        border: solid $color-1-grupo1;
     }
     .div {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+    .descripcion{
+        display: flex;
+        align-items: center;
+        position: relative;
+        left: 6rem;
+    }
 }
     
 .section__parrafo {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $font-family1;
     text-align: center;
     font-size: x-large;
     height: 350px;
@@ -160,7 +169,7 @@ footer {
     justify-content: center;
 }
 .parrafo__1 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: $font-family1;
     font-weight: bold;
     font-size: xx-large;
     line-height: 1.6;
@@ -175,15 +184,18 @@ footer {
 .mediosdepago {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     position: relative;
     top: 100px;
+    right: 200px;
     flex-wrap: wrap;
-    .mercado1 {
+    .medios_de_pago {
+        width: 100px;
+        height: 100px;
         position: relative;
-        left: 350px;
-        bottom: 55px;
+        left: 20rem;
         font-weight: bold;
     }
+
 }
 

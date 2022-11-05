@@ -1,24 +1,25 @@
+/* variables*/
 .body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  background-image: url(../paginas/recursos.html/ropa.jpg);
+  background-image: url(../paginas/recursos.html/pexels-withanonim-11578485.jpg);
   background-size: cover; }
 
-.body_catalogo {
-  background-image: url(../paginas/recursos.html/pexels-tara-winstead-7663174.jpg);
-  background-size: contain; }
+.body__catalogo {
+  background-image: url(../paginas/recursos.html/recursos/pexels-tara-winstead-7663174.jpg);
+  background-size: cover; }
 
 .body__somos {
-  background-image: url(../paginas/recursos.html/fotocajaflor.jpeg);
+  background-image: url(../paginas/recursos.html/recursos/fotocajaflor.jpeg);
   background-size: cover; }
 
 .body__pago {
-  background-image: url(../paginas/recursos.html/pexels-karolina-grabowska-4968638.jpg);
+  background-image: url(../paginas/recursos.html/recursos/pexels-karolina-grabowska-4968638.jpg);
   background-size: cover; }
 
 .body__envio {
-  background-image: url(../paginas/recursos.html/cajacorreo.jpg);
+  background-image: url(../paginas/recursos.html/recursos/cajacorreo.jpg);
   background-size: cover; }
 
 .nav-brand {
@@ -53,7 +54,7 @@ nav a:hover {
     bottom: 15px;
     text-align: center;
     font-size: xx-large;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
   .section__titulo .section__icon {
     width: 5px;
     height: 5px;
@@ -101,7 +102,7 @@ footer {
   bottom: 15px;
   text-align: center;
   font-size: xx-large;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif; }
 
 .titulo__h1 {
   text-align: center;
@@ -124,7 +125,7 @@ footer {
     align-items: center; }
 
 .section__parrafo {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   text-align: center;
   font-size: x-large;
   height: 350px;
@@ -134,7 +135,7 @@ footer {
   justify-content: center; }
 
 .parrafo__1 {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   font-size: xx-large;
   line-height: 1.6;
@@ -148,12 +149,14 @@ footer {
 .mediosdepago {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   position: relative;
   top: 100px;
+  right: 200px;
   flex-wrap: wrap; }
-  .mediosdepago .mercado1 {
+  .mediosdepago .medios_de_pago {
+    width: 100px;
+    height: 100px;
     position: relative;
-    left: 350px;
-    bottom: 55px;
+    left: 20rem;
     font-weight: bold; }
