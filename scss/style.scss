@@ -1,0 +1,189 @@
+
+
+
+
+.body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    background-image: url(../paginas/recursos.html/recursos/ropa-min.jpg);
+    background-size: cover;
+}
+
+.body_catalogo {
+    background-image: url(../paginas/recursos.html/recursos/pexels-tara-winstead-7663174.jpg);
+    background-size: contain;
+}
+
+.body__somos {
+    background-image: url(../paginas/recursos.html/recursos/fotocajaflor-min.jpeg);
+    background-size: cover;
+}
+
+.body__pago {
+    background-image: url(../paginas/recursos.html/recursos/pexels-karolina-grabowska-4968638-min.jpg);
+    background-size: cover;
+}
+
+.body__envio {
+    background-image: url(../paginas/recursos.html/recursos/cajacorreo-min\ \(1\).jpg);
+    background-size: cover;
+}
+
+.nav-brand {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-item {
+    margin-left: 150px;
+}
+
+.nav-item a:hover {
+    color: whitesmoke;
+}
+
+nav a:hover {
+    color: white
+}
+
+.navbar {
+    background-color: #dfc5d6;
+}
+
+.section__titulo {
+    background-color: rgb(236, 167, 167);
+    width: 100%;
+    height: 70px;
+    font-style: initial;
+    align-content: center;
+    position: relative;
+    top: 0px;
+        .titulo{
+            width: 100%;
+            height: 20%;
+            padding: 30px;
+            position: relative;
+            bottom: 15px;
+            text-align: center;
+            font-size: xx-large;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        } 
+        .section__icon {
+            width: 5px;
+            height: 5px;
+            margin: 20px;
+            padding: 10px;
+            font-size: 15px;
+            position: relative;
+            top: 300px;
+                .iconos {
+                    width: 40px;
+                    height: 40px;
+                    margin-bottom: 15px;
+                }   
+        }
+}
+footer {
+    border-style: solid;
+    color: black;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+    padding: 10px;
+    font-style: initial;
+    font-size: x-large;
+    align-content: center;
+        .section__fooder {
+            position: relative;
+            bottom: 10px;
+        }
+}
+
+.titulos__2 {
+    width: 100%;
+    height: 70px;
+    background-color: rgb(165, 162, 162);
+}
+
+.titulo__2A {
+    width: 100%;
+    height: 70px;
+    background-color: rosybrown;
+}
+
+.titulo__envio{
+    width: 100%;
+    height: 20%;
+    padding: 30px;
+    position: relative;
+    bottom: 15px;
+    text-align: center;
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+.titulo__h1 {
+    text-align: center;
+    position: relative;
+    top: 10px; 
+}
+
+
+.imagenes__1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .imagenes_catalogo {
+        margin: 40px;
+        width: 200px;
+        height: 270px;
+        border: solid black;
+    }
+    .div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    
+.section__parrafo {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: x-large;
+    height: 350px;
+    position: relative;
+    top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.parrafo__1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: xx-large;
+    line-height: 1.6;
+    width: 60vw;
+    height: 100vh;
+    position: relative;
+    top: 60px;
+    left: 40px;
+    flex-wrap: nowrap;
+}
+
+.mediosdepago {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    flex-wrap: wrap;
+    .mercado1 {
+        position: relative;
+        left: 350px;
+        bottom: 55px;
+        font-weight: bold;
+    }
+}
+
