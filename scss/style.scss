@@ -2,28 +2,45 @@
 $color-1-grupo1: black;
 $font-family1: 'Times New Roman', Times, serif;
 $font-family2: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arapey&family=Lobster&family=Satisfy&display=swap');
 
 
 .body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    background-image: url(../paginas/recursos.html/images.jpg);
+    background-image: url(../paginas/recursos.html/pexels-withanonim-11578485.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
 .body__catalogo {
     background-image: url(../paginas/recursos.html/recursos/pexels-tara-winstead-7663174.jpg);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .body__somos {
     background-image: url(../paginas/recursos.html/recursos/fotocajaflor.jpeg);
     background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .body__pago {
     background-image: url(../paginas/recursos.html/recursos/pexels-karolina-grabowska-4968638.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-size: cover;
 }
 
@@ -32,32 +49,31 @@ $font-family2: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sa
     background-size: cover;
 }
 
-.nav-brand {
-    text-decoration: none;
-    color:$color-1-grupo1;
-}
-
-.nav-item {
-    margin-left: 150px;
-}
-
-.nav-item a:hover {
-    color: whitesmoke;
-}
-
-nav a:hover {
-    color: white
-}
-
 .navbar {
     background-color: #dfc5d6;
+    width: 100vw;
+    .logo__ana{
+        height: 50px;
+        width: 50px;
+        border-radius: 80px;
+    }
+    .nav-item {
+        margin-left: 150px;
+        color:$color-1-grupo1;
+        font-style: italic;
+        font-weight:bold;
+        .nav-item a:hover {
+            color: whitesmoke;
+        }
+    }
 }
 
 .section__titulo {
-    background-color: rgb(236, 167, 167);
+    background-color: rgb(235, 177, 177);
+    opacity: 80%;
     width: 100%;
-    height: 70px;
-    font-style: initial;
+    height: 60px;
+    font-style: italic;
     align-content: center;
     position: relative;
     top: 0px;
@@ -69,7 +85,7 @@ nav a:hover {
             bottom: 15px;
             text-align: center;
             font-size: xx-large;
-            font-family: $font-family2
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         } 
         .section__icon {
             width: 5px;
@@ -78,7 +94,7 @@ nav a:hover {
             padding: 10px;
             font-size: 15px;
             position: relative;
-            top: 300px;
+            top: 200px;
                 .iconos {
                     width: 40px;
                     height: 40px;
@@ -124,78 +140,172 @@ footer {
     bottom: 15px;
     text-align: center;
     font-size: xx-large;
-    font-family: $font-family2;  
+    font-family:$font-family1;  
 }
 
 .titulo__h1 {
     text-align: center;
     position: relative;
     top: 10px; 
+    font-family:'Arapey', serif;
 }
 
 
 .imagenes__1 {
+    width: 100%;
+    height: 100vh;
+    margin: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.imagenes__1 figure{
+    position: relative;
+    height: 350px;
+    width: 250px;
+    overflow: hidden;
+    border-radius:6px;
+    cursor: pointer;
+}
+.imagenes__1 figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+.descripcion__1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(11,103,123,0.6);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.imagenes__1 figure:hover > .descripcion__1{
+    opacity: 1;
+    visibility: visible;
+}  
+.imagenes__1 figure:hover > .descripcion__1 h3{
+    margin-top: 70px;
+    margin-bottom: 15px;
+}  
+.imagenes__1 figure .descripcion__1 h3{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+.imagenes__1 figure .descripcion__1 p{
+    color: #fff;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 120px;
+    margin: auto;
+}
+.tabla{
+    width: 300px;
+    height: 300px;
+    position:relative;
+    bottom: 12rem;
+    left: 35rem;
+    text-align: center;
+    background-color: rgb(186, 189, 188,0.6);
+    .img__talles{
+    width: 250px;
+    height:250px ;
+    }
+}
+.parrafo__1 {
+    margin:30px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    align-items: center;
+    .parrafo__1A{ 
+        height: 50vh;
+        width: 40vw;
+        margin:20px;
+        background-color: rgb(186, 189, 188,0.6);
+        .subtitulo__h2 {
+            display: flex; 
+            justify-content: center;
+            font-family:'Arapey', serif;
+            
+        }
+        .parrafo__envio { 
+            font-family:'Arapey', serif;
+            font-size: 20px;
+            display: flex;
+            align-items: center; 
+            text-align: center;
+        }  
+    }
+} 
+
+.section__parrafo {
+    margin-top: 5rem;
+    background-color: rgb(186, 189, 188,0.6);
+    font-family: $font-family1;
+    font-size: x-large;
+    display: flex;
     justify-content: center;
     align-items: center;
-    .imagenes_catalogo {
-        margin: 40px;
-        width: 200px;
-        height: 270px;
-        border: solid $color-1-grupo1;
+    text-align: center;
+    .quienes_somos{
+        height: 50vh;
+        width: 50vw;
+        
     }
-    .div {
+
+}
+@media screen and (max-width:320px){
+    .section__parrafo {
+        background-color: rgb(186, 189, 188,0.6); 
+        font-family: $font-family1;
+        font-size: medium;
         display: flex;
         flex-direction: column;
-        align-items: center;
-    }
-    .descripcion{
-        display: flex;
-        align-items: center;
-        position: relative;
-        left: 6rem;
+        justify-content: center;
     }
 }
     
-.section__parrafo {
-    font-family: $font-family1;
-    text-align: center;
-    font-size: x-large;
-    height: 350px;
-    position: relative;
-    top: 40px;
-    display: flex;
-    justify-content: center;
-}
-.parrafo__1 {
-    font-family: $font-family1;
-    font-weight: bold;
-    font-size: xx-large;
-    line-height: 1.6;
-    width: 60vw;
-    height: 100vh;
-    position: relative;
-    top: 60px;
-    left: 40px;
-    flex-wrap: nowrap;
-}
+
+
 
 .mediosdepago {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    position: relative;
-    top: 100px;
-    right: 200px;
+    justify-content: space-between;
     flex-wrap: wrap;
-    .medios_de_pago {
-        width: 100px;
-        height: 100px;
-        position: relative;
-        left: 20rem;
+    .spam_pago{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
         font-weight: bold;
+        background-color:rgb(186, 189, 188,0.6);
+        position: relative;
+        top: 100px;
+        right: 1rem;
     }
-
+    .medios_de_pago {
+        width: 5rem;
+        height: 5rem;
+        position: relative;
+    }
 }
 
+@media screen and (max-width:320px){
+    .mediosdepago{
+        display: flex;
+        flex-direction: column;
+    }
+}
