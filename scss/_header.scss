@@ -1,3 +1,4 @@
+@import "variables";
 .navbar {
     background-color: #dfc5d6;
     width: 100vw;
@@ -8,7 +9,7 @@
     }
     .nav-item {
         margin-left: 150px;
-        color:$color-1-grupo1;
+        color: $color-1-grupo1;
         font-style: italic;
         font-weight:bold;
         .nav-item a:hover {
